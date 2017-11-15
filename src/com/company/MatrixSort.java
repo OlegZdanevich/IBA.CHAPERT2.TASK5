@@ -1,8 +1,7 @@
 package com.company;
 
 
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class MatrixSort {
     protected double[][] matrix = null;
@@ -26,15 +25,15 @@ public class MatrixSort {
 
     public void sort(int k) {
         try {
-            if (k <= 0) throw new IllegalArgumentException("K must be greater then zero");
+            if (k < 0) throw new IllegalArgumentException("K must be greater then zero");
             if (k >= size) throw new IllegalArgumentException("Size must be greater then column");
-            TreeMap<Double, double[]> tree = new TreeMap<>();
+            TreeSet<LineAndElement> tree = new TreeSet<>();
             for (int i = 0; i < size; i++) {
-                tree.put(matrix[i][k], matrix[i]);
+                tree.add(new LineAndElement(matrix[i][k], matrix[i]));
             }
             int counter = 0;
-            for (Map.Entry<Double, double[]> item : tree.entrySet()) {
-                matrix[counter] = item.getValue().clone();
+            for (LineAndElement element : tree) {
+                matrix[counter] = element.getElements().clone();
                 counter++;
             }
         } catch (IllegalArgumentException e) {
