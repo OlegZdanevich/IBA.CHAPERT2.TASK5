@@ -1,7 +1,9 @@
 package com.company;
 
 
-import java.util.TreeSet;
+import java.util.ArrayList;
+import java.util.Collections;
+
 
 public class MatrixSort {
     protected double[][] matrix = null;
@@ -27,12 +29,13 @@ public class MatrixSort {
         try {
             if (k < 0) throw new IllegalArgumentException("K must be greater then zero");
             if (k >= size) throw new IllegalArgumentException("Size must be greater then column");
-            TreeSet<LineAndElement> tree = new TreeSet<>();
+            ArrayList<LineAndElement> arr=new ArrayList<>();
             for (int i = 0; i < size; i++) {
-                tree.add(new LineAndElement(matrix[i][k], matrix[i]));
+                arr.add(new LineAndElement(matrix[i][k], matrix[i]));
             }
+            Collections.sort(arr,new LineAndElementComp());
             int counter = 0;
-            for (LineAndElement element : tree) {
+            for (LineAndElement element : arr) {
                 matrix[counter] = element.getElements().clone();
                 counter++;
             }
