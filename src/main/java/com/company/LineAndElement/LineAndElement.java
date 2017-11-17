@@ -1,33 +1,23 @@
 package com.company.LineAndElement;
 
 
-import org.apache.log4j.Logger;
+import com.company.Exceptions.Exceptions;
 
-public class LineAndElement
-{
+
+public class LineAndElement {
     private double elementOfLine;
-    private double[] line=null;
-    private static final Logger log = Logger.getLogger(LineAndElement.class);
+    private double[] line = null;
 
-    public LineAndElement(double elementOfLine, double[] line)
-    {
+    public LineAndElement(double elementOfLine, double[] line) {
         try {
-            if(line==null) throw new  NullPointerException("Line should be initialized");
+            if (line == null) throw new NullPointerException("Line should be initialized");
 
-            this.elementOfLine=elementOfLine;
-            this.line=line.clone();
-        }
-        catch (NullPointerException exception)
-        {
-            StackTraceElement[] info = exception.getStackTrace();
-            StringBuilder trace = new StringBuilder("");
-
-            for (int i = info.length - 1; i >= 0; i--) {
-                trace.append(info[i].toString() + "\n");
-            }
-            log.error(exception.getMessage() + "\nTrace: \n" + trace);
-            line=new double[1];
-            line[0]=0;
+            this.elementOfLine = elementOfLine;
+            this.line = line.clone();
+        } catch (NullPointerException exception) {
+            Exceptions.notInitializedException(exception);
+            line = new double[1];
+            line[0] = 0;
         }
 
     }

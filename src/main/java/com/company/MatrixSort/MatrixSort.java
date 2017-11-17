@@ -1,9 +1,9 @@
 package com.company.MatrixSort;
 
 
+import com.company.Exceptions.Exceptions;
 import com.company.LineAndElement.LineAndElement;
 import com.company.LineAndElement.LineAndElementComp;
-import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,9 +11,8 @@ import java.util.Collections;
 
 
 public class MatrixSort {
-    private double[][] matrix = null;
-    private int size = 0;
-    private static final Logger log = Logger.getLogger(MatrixSort.class);
+    protected double[][] matrix = null;
+    protected int size = 0;
 
     public MatrixSort(int size) {
         try {
@@ -27,14 +26,7 @@ public class MatrixSort {
 
         } catch (IllegalArgumentException exception) {
 
-            StackTraceElement[] info = exception.getStackTrace();
-            StringBuilder trace = new StringBuilder("");
-
-            for (int i = info.length - 1; i >= 0; i--) {
-                trace.append(info[i].toString() + "\n");
-            }
-
-            log.error(exception.getMessage() + "\nTrace: \n" + trace);
+            Exceptions.notCorrectNumbersException(exception);
 
             this.size = 1;
             matrix = new double[this.size][this.size];
@@ -64,13 +56,7 @@ public class MatrixSort {
 
         } catch (IllegalArgumentException exception) {
 
-            StackTraceElement[] info = exception.getStackTrace();
-            StringBuilder trace = new StringBuilder("");
-
-            for (int i = info.length - 1; i >= 0; i--) {
-                trace.append(info[i].toString() + "\n");
-            }
-            log.error(exception.getMessage() + "\nTrace: \n" + trace);
+            Exceptions.notCorrectNumbersException(exception);
 
         }
     }

@@ -1,0 +1,12 @@
+[ERROR] 2017-11-17 22:18:55.514 [main] Exceptions - Size should be greater then zero
+Trace: 
+com.company.Run.Main.main(Main.java:18)
+com.company.MatrixSortAndTranspose.MatrixSortAndTranspose.<init>(MatrixSortAndTranspose.java:8)
+com.company.MatrixSort.MatrixSort.<init>(MatrixSort.java:20)
+
+[ERROR] 2017-11-17 22:24:19.491 [main] Exceptions - Size should be greater then zero
+Trace: 
+com.company.Run.Main.main(Main.java:18)
+com.company.MatrixSortAndTranspose.MatrixSortAndTranspose.<init>(MatrixSortAndTranspose.java:8)
+com.company.MatrixSort.MatrixSort.<init>(MatrixSort.java:20)
+
