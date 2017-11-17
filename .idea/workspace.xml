@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71174687-44b4-4dae-af2b-12ac95abfdfe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/propertieslogs.log" afterPath="$PROJECT_DIR$/logs/propertieslogs.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/LineAndElement/LineAndElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/LineAndElement/LineAndElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/LineAndElement/LineAndElementComp.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/LineAndElement/LineAndElementComp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/MatrixSort/MatrixSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/MatrixSort/MatrixSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/MatrixSortAndTranspose/MatrixSortAndTranspose.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/MatrixSortAndTranspose/MatrixSortAndTranspose.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/Run/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/Run/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,21 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exceptions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exceptions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Exceptions/Exceptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j2.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="log4j2.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="91">
+              <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -146,14 +142,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/MatrixSort/MatrixSortAndTranspose/MatrixSortAndTranspose.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/MatrixSortAndTranspose/MatrixSort.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/MatrixSort/MatrixSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Run/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/MatrixSortAndTranspose/MatrixSortAndTranspose.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/LineAndElement/LineAndElementComp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/LineAndElement/LineAndElement.java" />
-        <option value="$PROJECT_DIR$/logs/propertieslogs.log" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Exceptions/Exceptions.java" />
+        <option value="$PROJECT_DIR$/logs/propertieslogs.log" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
       </list>
     </option>
   </component>
@@ -274,6 +270,13 @@
               <item name="IBA.CHAPERT2.TASK5" type="b2602c69:ProjectViewProjectNode" />
               <item name="IBA.CHAPERT2.TASK5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT2.TASK5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT2.TASK5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -366,12 +369,12 @@
       <workItem from="1510762171600" duration="10000" />
       <workItem from="1510762586564" duration="757000" />
       <workItem from="1510768953043" duration="193000" />
-      <workItem from="1510927049123" duration="3856000" />
+      <workItem from="1510927049123" duration="4497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7329000" />
+    <option name="totallyTimeSpent" value="7970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -577,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Run/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -629,6 +624,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Exceptions/Exceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -637,10 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Exceptions/Exceptions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="91">
+          <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
           <folding />
         </state>
       </provider>
