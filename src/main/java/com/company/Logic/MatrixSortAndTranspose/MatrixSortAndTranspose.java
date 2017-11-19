@@ -1,6 +1,6 @@
-package com.company.MatrixSortAndTranspose;
+package com.company.Logic.MatrixSortAndTranspose;
 
-import com.company.MatrixSort.MatrixSort;
+import com.company.Logic.MatrixSort.MatrixSort;
 
 public class MatrixSortAndTranspose extends MatrixSort {
 

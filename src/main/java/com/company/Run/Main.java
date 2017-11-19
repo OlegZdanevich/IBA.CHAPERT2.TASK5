@@ -1,7 +1,7 @@
 package com.company.Run;
 
 import com.company.Exceptions.Exceptions;
-import com.company.MatrixSortAndTranspose.MatrixSortAndTranspose;
+import com.company.Logic.MatrixSortAndTranspose.MatrixSortAndTranspose;
 
 import java.util.Scanner;
 

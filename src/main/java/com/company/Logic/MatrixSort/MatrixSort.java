@@ -1,9 +1,9 @@
-package com.company.MatrixSort;
+package com.company.Logic.MatrixSort;
 
 
 import com.company.Exceptions.Exceptions;
-import com.company.LineAndElement.LineAndElement;
-import com.company.LineAndElement.LineAndElementComp;
+import com.company.Logic.LineAndElement.LineAndElement;
+import com.company.Logic.LineAndElement.LineAndElementComp;
 
 import java.util.ArrayList;
 import java.util.Arrays;

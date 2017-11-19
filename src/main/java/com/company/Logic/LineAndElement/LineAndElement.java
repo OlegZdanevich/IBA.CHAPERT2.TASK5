@@ -1,4 +1,4 @@
-package com.company.LineAndElement;
+package com.company.Logic.LineAndElement;
 
 
 import com.company.Exceptions.Exceptions;
