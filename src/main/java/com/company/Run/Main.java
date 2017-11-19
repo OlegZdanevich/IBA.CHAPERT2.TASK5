@@ -13,9 +13,9 @@ public class Main {
         try {
 
             System.out.print("Enter size: ");
-            int n = Integer.parseInt(input.next());
+            int size = Integer.parseInt(input.next());
 
-            MatrixSortAndTranspose matrix = new MatrixSortAndTranspose(n);
+            MatrixSortAndTranspose matrix = new MatrixSortAndTranspose(size);
 
             System.out.println("Before transpose:");
             System.out.println(matrix);
